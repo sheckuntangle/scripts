@@ -1,4 +1,4 @@
-cp /etc/apt/sources.list > /etc/apt/sources.list.old
+mv /etc/apt/sources.list > /etc/apt/sources.list.old
 touch /etc/apt/sources.list
 echo 'deb http://deb.debian.org/debian buster main contrib non-free' >> /etc/apt/sources.list
 echo 'deb-src http://deb.debian.org/debian buster main contrib non-free' >> /etc/apt/sources.list
