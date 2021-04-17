@@ -5,3 +5,4 @@ apt-get update
 apt-get install qemu-guest-agent
 rm /etc/nano/sources.list 
 mv /etc/nano/sources.list.old /etc/nano/sources.list
+rm /usr/share/untangle/conf/uid
