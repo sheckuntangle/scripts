@@ -1,2 +1,28 @@
-1.1.1.1
-8.8.4.4
+*.test.net 2001:db8::1 mail.another-example.co.uk
+172.16.0.10/24 ftp.example.com 8.8.8.8
+10.10.10.10-10.10.10.20 *.wild.domain.com
+192.168.2.50 2001:dead:beef:1::100-2001:dead:beef:1::200 api.test.net
+*.api.example.org *.cache.example.org
+site1.com site2.org site3.net
+203.0.113.1/30 example1.com example2.net
+test-site.com test-site.net 192.0.2.1
+2001:db8:1234::1/64 10.0.0.1 web.internal
+sub1.domain.com sub2.domain.com sub3.domain.com
+! Homepage: https://laniksj.github.io/ubo-filters
+! License: https://opensource.org/licenses/MITmail*.example.com login*.service.io
+*.alpha.beta.gamma.zone a*b.c*.example.net
+203.0.113.1 203.0.113.5-203.0.113.10 www.multi.range
+internal.lan 10.0.0.100/32 2001:db8::2
+www.one.com www.two.net 172.16.0.1-172.16.0.10
+*.example.com 192.168.10.10 *.wildcard.org
+site.one site.two 10.1.1.1/28 10.1.2.1
+# shold not have ranges like 192.168.57.10-192.168.57.20 in this list
+www.app*.domain.com files*.cdn.domain.net
+test*.wildcard.zone.net 10.5.5.5-10.5.5.15
+|35.201.96.133^ ||4jnzhl0d0.com^
+|5mcwl.pw^   10.6.6.6-10.6.6.18
+|chinna.*.com^ 192.168.57.3
+||cr.abc.*com^ 192.168.57.145
+|pr.xyz.*com^  ||arista.com^
+||abc.*.com^  www.arista.com
+|abcdef^ |34257^
